@@ -116,7 +116,7 @@
   }
   // End Codepen spesific styling
 
-  @media (max-width: 1023px) and (min-width: 0px) {
+  @media (min-width: 0px) and (max-width: 1023px) {
     .card {
       min-width: 214px;
       display: flex;
@@ -172,7 +172,7 @@
   }
 
 
-  @media (max-width: 1439px) and (min-width: 1023px) {
+  @media (min-width: 1023px) and (max-width: 1439px) {
     .card {
       min-width: 256px;
       display: flex;
@@ -227,7 +227,7 @@
     }
   }
 
-  @media (max-width: 1919px) and (min-width: 1440px)  {
+  @media  (min-width: 1440px) and (max-width: 1919px) {
     .card {
       min-width: 360px;
       display: flex;
@@ -282,7 +282,7 @@
     }
   }
 
-  @media (max-width: 4479px) and (min-width: 1920px) {
+  @media (min-width: 1920px) and (max-width: 4479px) {
 
     .card {
       min-width: 383px;
